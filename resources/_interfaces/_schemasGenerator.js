@@ -1,8 +1,10 @@
 const recordInterface = require("./recordInterface");
 
-function implementRecordInterface(schema) {
-  return {
-    ...recordInterface,
-    ...schema,
-  };
-}
+module.exports = {
+  implementRecordInterface(schema) {
+    return {
+      ...recordInterface,
+      ...schema,
+    };
+  },
+};

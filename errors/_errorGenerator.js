@@ -1,4 +1,4 @@
-const { INTERNAL, EXTERNAL } = require("./dbErrors");
+const { INTERNAL, EXTERNAL } = require("./errorsTypes");
 
 function createDBError(err) {
   return {
